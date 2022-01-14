@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Bucles_1 {
+  public static void main(String[] args) {
+    Scanner in = new Scanner (System.in);
+
+    int num = 0, numMax= 1;
+
+
+    System.out.print("Posa un número: ");
+    num = in.nextInt();
+    num++;
+
+    while (num > numMax) {
+      System.out.println("Número es: " + numMax);
+      numMax++;
+    }
+
+  }
+}
