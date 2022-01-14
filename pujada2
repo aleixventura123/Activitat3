@@ -12,7 +12,7 @@ public class Bucles_1 {
 
     while (num > numMax) {
       System.out.println("Número es: " + numMax);
-      numMax;
+      numMax+-;
     }
 
   }
